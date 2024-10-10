@@ -9,5 +9,5 @@ window.addEventListener("load", function () {
     canvas.className = "live2d";
     canvas.style = `position:fixed;right:0;bottom:0;`;
     document.body.appendChild(canvas);
-    loadlive2d("live2d", "./live2d/model/tia/model.json");
+    loadlive2d("live2d", "https://fastly.jsdelivr.net/gh/CheshireJCat/live2d@latest/live2d/model/tia/model.json");
 });
