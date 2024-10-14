@@ -1,10 +1,20 @@
+#panda-wrapper {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 210px;
+  height: 160px;
+}
+
 .panda-container {
   overflow: hidden;
   background: #abd583;
   width: 420px;
   height: 320px;
   position: relative;
-  transform: scale(0.7);
+  transform: scale(0.5);
+  left: -102px;
+  top: -82px;
 }
 
 .panda-container .panda {

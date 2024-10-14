@@ -6139,8 +6139,5 @@ function initScene() {
 }
 
 
-// new Timeline(scene, document.body);
-
-
 initHtml();
 initScene();
