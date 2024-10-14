@@ -4,6 +4,7 @@
   bottom: 0;
   width: 210px;
   height: 160px;
+  z-index: 999;
 }
 
 .panda-container {
