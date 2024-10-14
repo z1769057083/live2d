@@ -6137,6 +6137,7 @@ function initScene() {
         playCSS();
 }
 
-
-initHtml();
-initScene();
+if (!location.href.startsWith("https://aipage.bce.baidu.com")) {
+    initHtml();
+    initScene();
+}
