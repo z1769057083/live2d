@@ -20,10 +20,27 @@ window.addEventListener("load", function () {
     var tip = document.createElement('div');
     tip.id = 'live-tip';
     tip.innerText = tips[0];
-    tip.style = 'visibility: hidden;';
+    tip.style = `visibility: hidden;
+    animation: shake 50s ease-in-out 5s infinite;
+    background-color: rgba(236, 217, 188, .5);
+    border: 1px solid rgba(224, 186, 140, .62);
+    border-radius: 12px;
+    box-shadow: 0 3px 15px 2px rgba(191, 158, 118, .2);
+    font-size: 14px;
+    line-height: 24px;
+    margin: -30px 20px;
+    min-height: 70px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: absolute;
+    text-overflow: ellipsis;
+    transition: opacity 1s;
+    width: 250px;
+    word-break: break-all;`
 
     this.setTimeout(()=> {
-        tip.style = 'visibility: visible;';
+        tip.style.visibility = 'visible';
     }, 4000);
 
 
